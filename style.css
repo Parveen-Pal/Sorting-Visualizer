@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+}
+
+#timeComplexity {
+    padding: 20px;
+
+}
+
+#timeComplexity>li {
+    background-color: #ce93d8;
+    font-size: 18px;
+    margin: 10px;
+
+}
+
+#labelData {
+    font-size: 25px;
+    background-color: azure;
+}
+
+
+
+
+.heading {
+    width: 100%;
+    height: 50px;
+    background-color: #3c933c;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffebee;
+    /* max-width: 100vw; (in code)*/
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    /* padding: 20px 0px; */
+    padding: 0px 0px 70px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.buttonsContainer>button,
+select {
+    width: 200px;
+    height: 30px;
+    background-color: #b330c6;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 1s ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: #437caa;
+    font-weight: bold;
+}
+
+.bar {
+    width: 20px;
+    background-color: aqua;
+    margin: 0 2px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+.barsContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
